@@ -1,0 +1,35 @@
+{
+  "name": "marksweb.co.uk",
+  "version": "0.0.1",
+  "description": "Code for my personal site",
+  "main": "index.js",
+  "homepage": "https://www.marksweb.co.uk",
+  "keywords": [
+    "developement",
+    "django",
+    "python",
+    "gatsby"
+  ],
+  "author": "Mark Walker <theshow@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gatsby": "^2.24.79",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marksweb/co.uk.git"
+  },
+  "scripts": {
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build && node ./csp-util.js",
+    "develop": "gatsby develop",
+    "lint:eslint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint:prettier": "prettier --check \"**/*.+(js|jsx|json|css|scss|md|mdx)\"",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|scss|md|mdx)\""
+  }
+}
