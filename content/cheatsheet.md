@@ -1,5 +1,5 @@
 ---
-title: "Cheetsheet"
+title: "Cheatsheet"
 cover: "5.jpg"
 category: "demo"
 date: "1970-01-01"

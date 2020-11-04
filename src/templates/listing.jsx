@@ -5,7 +5,8 @@ import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import "./listing.css";
+
+import "../styles/style.scss";
 
 class Listing extends React.Component {
   renderPaging() {

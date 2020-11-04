@@ -183,6 +183,13 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        includePaths: [`${__dirname}/node_modules`, `${__dirname}/src/`],
+        precision: 8
+      }
     }
   ]
 };

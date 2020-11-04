@@ -1,5 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Button, Card, Row } from "react-bootstrap"
+import moment from "moment"
+
+import "../../styles/style.scss";
 
 class PostListing extends React.Component {
   getPostList() {
@@ -10,7 +13,7 @@ class PostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         cover: postEdge.node.frontmatter.cover,
         title: postEdge.node.frontmatter.title,
-        date: postEdge.node.fields.date,
+        date: moment(postEdge.node.fields.date).format("Do MMMM YYYY"),
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead
       });
@@ -21,15 +24,26 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div>
+      <Row className="posts fluid">
         {/* Your post list here. */
         postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
+          <Card style={{ width: '18rem' }}>
+            {/* <Card.Img variant="top" src="{post.cover}" /> */}
+            <Card.Body>
+              <Card.Title>{post.title}</Card.Title>
+              <Card.Text>
+                {post.excerpt}
+              </Card.Text>
+              <Button href={post.path} variant="primary">
+                Read
+              </Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">{post.date}</Card.Footer>
+          </Card>
+
         ))
 }
-      </div>
+      </Row>
     );
   }
 }

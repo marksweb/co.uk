@@ -1,14 +1,36 @@
 import React, { Component } from "react";
-import "./About.css";
+import { Container, Row } from "react-bootstrap"
+
+import "../../styles/style.scss";
 
 class About extends Component {
   render() {
     return (
-      <div className="about">
-        <h1>
-          Edit About component or pages/about.jsx to include your information.
-        </h1>
-      </div>
+      <Container className="about">
+        <Row>
+          <h1>Mark Walker</h1>
+        </Row>
+        
+        <Row>
+          <p>
+            I'm a developer, usually writing python to create django applications running on Amazon Web Services (AWS).
+          </p>
+
+          <p>
+            You'll also find me active on <a target="_blank" href="https://stackoverflow.com/users/1199464/markwalker">StackOverflow</a> and 
+            <a target="_blank" href="https://github.com/marksweb">GitHub</a>.
+          </p>
+          
+          <p>
+            Speaking of which, I'm maintainer of <a href="https://github.com/marksweb/django-bleach">django-bleach</a> and 
+            <a target="_blank" href="https://github.com/groveco/django-sql-explorer">django-sql-explorer</a>.
+          </p>
+
+          <p>
+            If you'd like some help maintaining a project - let me know.
+          </p>
+        </Row>
+      </Container>
     );
   }
 }
