@@ -3,19 +3,15 @@ import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  TelegramShareButton,
-  RedditShareButton,
   FacebookShareCount,
-  RedditShareCount,
   FacebookIcon,
   TwitterIcon,
-  TelegramIcon,
-  LinkedinIcon,
-  RedditIcon
+  LinkedinIcon
 } from "react-share";
 import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
-import "./SocialLinks.css";
+
+import "../../styles/style.scss";
 
 class SocialLinks extends Component {
   render() {

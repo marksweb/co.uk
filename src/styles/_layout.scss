@@ -24,3 +24,30 @@ body {
     display: flex;
     padding: 20px;
 }
+
+.user-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.social-links > div {
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.share-count {
+    text-align: center;
+}

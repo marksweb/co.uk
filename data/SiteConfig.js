@@ -16,7 +16,7 @@ const config = {
   postsPerPage: 5, // Amount of posts displayed per listing page.
   userName: "Mark Walker", // Username to display in the author segment.
   userEmail: "theshow@gmail.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "markwalker_", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Chester, England", // User location to display in the author segment.
   userAvatar: "https://avatars2.githubusercontent.com/u/1461191", // User avatar to display in the author segment.
   userDescription:
