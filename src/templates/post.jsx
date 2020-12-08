@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap"
+import { Container, Row, Div } from "react-bootstrap"
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
@@ -11,6 +11,7 @@ import config from "../../data/SiteConfig";
 
 import "../styles/code.scss";
 import "../styles/style.scss";
+
 
 export default class PostTemplate extends React.Component {
   render() {
