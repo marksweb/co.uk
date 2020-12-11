@@ -5296,10 +5296,10 @@ eslint-plugin-jsx-a11y@^6.3.1:
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
 
-eslint-plugin-prettier@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.4.tgz#168ab43154e2ea57db992a2cd097c828171f75c2"
-  integrity sha512-jZDa8z76klRqo+TdGDTFJSavwbnWK2ZpqGKNZ+VvweMW516pDUMmQ2koXvxEE4JhzNvTv+radye/bWGBmA6jmg==
+eslint-plugin-prettier@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.2.0.tgz#af391b2226fa0e15c96f36c733f6e9035dbd952c"
+  integrity sha512-kOUSJnFjAUFKwVxuzy6sA5yyMx6+o9ino4gCdShzBNx4eyFRudWRYKCFolKjoM40PEiuU6Cn7wBLfq3WsGg7qg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -14020,16 +14020,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-cabin-condensed@1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-cabin-condensed/-/typeface-cabin-condensed-1.1.13.tgz#06bb32a051a31047602c8ed4d23bb63c21af0be8"
-  integrity sha512-gp5ArR2iwfX9Q5/Y88uyiU2aC109Xa09N3n9DJFmCEOjI/GADPRv6TA0E9+0YGreHI5pl1nNb2Jf28QpxdvI8Q==
-
-typeface-patua-one@1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-patua-one/-/typeface-patua-one-1.1.13.tgz#90ac9353a0f02f67bed05263cdf114c52ea96f18"
-  integrity sha512-saSrk50uyEXOivmYRYxbJWNCmkrUj9ZedTMbavDPXWH+7FrVaxYReIN9brjzY7SLrP3v8G5auY3QAAvOIyuKRQ==
 
 typography-breakpoint-constants@^0.16.19:
   version "0.16.19"
