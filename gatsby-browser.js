@@ -1,8 +1,4 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
-
-// You can delete this file if you're not using it
-import "./src/styles/style.scss"
+exports.onInitialClientRender = () => {
+  // require('typeface-patua-one')
+  // require('typeface-cabin-condensed')
+}
