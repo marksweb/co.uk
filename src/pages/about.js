@@ -3,6 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Avatar from '../components/avatar'
+import ExternalLink from '../components/external-link'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import SocialLinks from '../components/social'
@@ -28,7 +29,15 @@ const AboutPage = ({ data }) => {
         <BioStyles>
           Hi! I'm a web developer, I work mostly with Python & Django, on AWS.
           I also have a keen interest in OSS and helping other developers through StackOverflow.
-          I'm maintainer of [django-bleach]() and [django-sql-explorer]()
+          I'm maintainer of &nbsp;
+          <ExternalLink to="https://github.com/marksweb/django-bleach" title="django-bleach">
+            django-bleach
+          </ExternalLink>
+          &nbsp; and &nbsp;
+          <ExternalLink to="https://github.com/groveco/django-sql-explorer" title="django-sql-explorer">
+            django-sql-explorer
+          </ExternalLink>
+          &nbsp;
           If you've got a python/django package you'd like help maintaining, get in touch.
         </BioStyles>
         <SocialLinks />

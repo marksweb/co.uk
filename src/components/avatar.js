@@ -7,9 +7,7 @@ const AvatarStyles = styled.div`
   padding: 1rem;
 
   img {
-    padding: 5px;
-    border: 1px solid #51555d;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 `
 
