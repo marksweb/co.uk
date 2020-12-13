@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: 'Mark Walker', // Site title.
+  siteTitle: 'Mark Walker, python developer', // Site title.
   siteTitleShort: 'Mark Walker', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Mark Walker's developer stories", // Alternative site title for SEO.
   siteLogo: 'https://avatars2.githubusercontent.com/u/1461191', // Logo used for SEO and manifest.
@@ -25,7 +25,7 @@ const config = {
     {
       label: 'GitHub',
       url: 'https://github.com/marksweb',
-      iconClassName: 'fa fa-github'
+      iconClassName: 'fa fa-github',
     },
     {
       label: 'Twitter',
