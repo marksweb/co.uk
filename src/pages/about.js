@@ -27,9 +27,8 @@ const AboutPage = ({ data }) => {
         <h1>Mark Walker</h1>
         <Avatar sharpImage={data.avatarImage.childImageSharp} />
         <BioStyles>
-          Hi! I'm a web developer, I work mostly with Python & Django, on AWS.
-          I also have a keen interest in OSS and helping other developers through StackOverflow.
-          I'm maintainer of &nbsp;
+          Hi! I'm a web developer, I work mostly with Python & Django, on AWS. I 
+          also have a keen interest in OSS and helping other developers through StackOverflow. I'm maintainer of &nbsp;
           <ExternalLink to="https://github.com/marksweb/django-bleach" title="django-bleach">
             django-bleach
           </ExternalLink>

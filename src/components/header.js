@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 
+import ListInline from './list-inline'
+
 const HeaderWrapperStyles = styled.header`
   box-shadow: rgba(29, 33, 41, 0.15) 0px 30px 20px -32px;
 
@@ -22,7 +24,7 @@ const HeaderStyles = styled.div`
   display: flex;
 `
 
-const TitleStyles = styled.h2`
+const TitleStyles = styled.p`
   margin: 0;
   flex-grow: 1;
   font-size: 18px;
@@ -35,6 +37,9 @@ const Header = ({ siteTitle }) => (
       <TitleStyles>
         <Link to="/">{siteTitle}</Link>
       </TitleStyles>
+      <ListInline>
+        <Link to="/about/">About</Link>
+      </ListInline>
     </HeaderStyles>
   </HeaderWrapperStyles>
 )

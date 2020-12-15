@@ -7,9 +7,9 @@ import { makePostUrl } from '../utils/routes'
 const PostPreview = ({ title, slug, date, timeToRead, excerpt }) => {
   return (
     <div>
-      <h3>
+      <h2>
         <Link to={makePostUrl(slug)}>{title}</Link>
-      </h3>
+      </h2>
       <small>
         {date} • {timeToRead} min read
       </small>
