@@ -140,7 +140,7 @@ module.exports = {
           'style-src': `'self' 'unsafe-inline'`,
           'img-src': `'self' data: www.google-analytics.com`,
           'default-src': `'self'`,
-          'connect-src': `'self'`,
+          'connect-src': `'self' data: www.google-analytics.com,
         },
       },
     },
