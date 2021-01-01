@@ -8,7 +8,7 @@ jobs:
     - name: Audit Netlify deploy preview
       uses: jakejarvis/lighthouse-action@master
       with:
-        netlify_site: 'affectionate-agnesi-a744d0'
+        url: 'https://markw.co.uk/'
     - uses: actions/upload-artifact@master
       with:
         name: report
