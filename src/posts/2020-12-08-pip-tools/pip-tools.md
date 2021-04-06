@@ -9,6 +9,7 @@ og_image:
 tags:
     - pip
     - python
+    - maintenance
 ---
 
 For years managing pip packages has been a bit of a pain when it comes to keeping everything up to date.
