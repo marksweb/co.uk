@@ -14,7 +14,7 @@
   "private": false,
   "dependencies": {
     "babel-plugin-styled-components": "1.12.0",
-    "gatsby": "3.4.0",
+    "gatsby": "3.4.1",
     "gatsby-image": "3.4.0",
     "gatsby-link": "3.4.0",
     "gatsby-plugin-csp": "1.1.3",
@@ -25,7 +25,7 @@
     "gatsby-plugin-offline": "4.4.0",
     "gatsby-plugin-react-helmet": "4.4.0",
     "gatsby-plugin-robots-txt": "1.5.6",
-    "gatsby-plugin-sharp": "3.4.0",
+    "gatsby-plugin-sharp": "3.4.1",
     "gatsby-plugin-sitemap": "^3.0.0",
     "gatsby-plugin-styled-components": "4.4.0",
     "gatsby-plugin-typography": "3.4.0",
