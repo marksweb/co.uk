@@ -46,7 +46,7 @@
     "remark-external-links": "8.0.0",
     "replace-in-file": "6.2.0",
     "slugify": "1.5.1",
-    "styled-components": "5.2.3",
+    "styled-components": "5.3.0",
     "toml": "github:GalAster/vscode-toml",
     "typography": "0.16.19",
     "typography-theme-funston": "0.16.19"
