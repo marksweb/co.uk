@@ -12954,17 +12954,6 @@ token-types@^2.0.0:
     "@tokenizer/token" "^0.1.1"
     ieee754 "^1.2.1"
 
-"toml@github:GalAster/vscode-toml":
-  version "0.5.1"
-  resolved "git+ssh://git@github.com/GalAster/vscode-toml.git#0e866836c7b0aa4058185406cb7f901ce5273a0d"
-  dependencies:
-    toml_vscode "^0.1.3"
-
-toml_vscode@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/toml_vscode/-/toml_vscode-0.1.3.tgz"
-  integrity sha512-nA/cdPHv0SrgMlDCgD40q3wlZtBM7gh5+CPHYwWarU9SiUFF1rTDkfHlw1wUg80pMWaHt/h0iBPr6likC6/jEw==
-
 trim-newlines@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/trim-newlines/-/trim-newlines-1.0.0.tgz"
