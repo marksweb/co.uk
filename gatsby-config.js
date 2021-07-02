@@ -1,5 +1,3 @@
-use 'esversion: 6';
-
 const urljoin = require('url-join');
 const { makePostUrl } = require('./src/utils/routes');
 const config = require('./src/data/SiteConfig');
