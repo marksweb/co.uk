@@ -1,6 +1,8 @@
-const urljoin = require('url-join')
-const { makePostUrl } = require('./src/utils/routes')
-const config = require('./src/data/SiteConfig')
+use 'esversion: 6';
+
+const urljoin = require('url-join');
+const { makePostUrl } = require('./src/utils/routes');
+const config = require('./src/data/SiteConfig');
 
 module.exports = {
   pathPrefix: config.pathPrefix === '' ? '/' : config.pathPrefix,
@@ -165,6 +167,12 @@ module.exports = {
           ],
         },
         mergeSecurityHeaders: true, // boolean to turn off the default security headers
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `${site.siteMetadata.siteUrl}`,
       },
     },
   ],
