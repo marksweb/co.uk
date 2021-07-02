@@ -15,10 +15,7 @@ I love django, it's kept me in decent jobs for most of my career. But recently I
 
 At work we created a project last year which was to be a multi-site application. We opted for django 2.2 with [django-cms](https://www.django-cms.org) to allow for dynamic content and a postgres database. We run things from Amazon Web Services (AWS) so can easily scale our application and keeping things simple is always a good idea.
 
-Generally speaking, at least from what I've seen, multi-site django applications have a settings file per site. That's just a nightmare of maintenance jobs for the future. I discovered [django-multisite](https://github.com/ecometrica/django-multisite) which uses an object for the `SITE_ID` setting:
-
-    from multisite import SiteID
-    SITE_ID = SiteID(default=1)
+Generally speaking, at least from what I've seen, multi-site django applications have a settings file per site. That's just a nightmare of maintenance jobs for the future. I discovered [django-multisite](https://github.com/ecometrica/django-multisite) which uses an object for the `SITE_ID` setting, `SITE_ID = SiteID(default=1)`.
 
 This was perfect, allowing us to have just 1 settings file.
 
