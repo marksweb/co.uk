@@ -170,7 +170,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `${site.siteMetadata.siteUrl}`,
+        siteUrl: `https://www.markw.co.uk`,
       },
     },
   ],
