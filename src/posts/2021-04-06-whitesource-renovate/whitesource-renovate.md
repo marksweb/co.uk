@@ -1,6 +1,6 @@
 ---
 title: 'Whitesource Renovate'
-category: 'general'
+category: 'git'
 description: 'renovate bot is so a must!'
 date: '2021-04-06'
 slug: 'whitesource-renovate'

@@ -1,6 +1,6 @@
 ---
 title: 'pip-tools'
-category: 'general'
+category: 'python'
 description: 'pip-tools is so good!'
 date: '2020-12-08'
 slug: 'pip-tools'
