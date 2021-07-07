@@ -16,7 +16,7 @@ I've got a django project that runs multiple sites, so locally I have my hosts f
 
 This works really well, but one day my local server started getting spammed with requests which must be coming from something on my machine which look something like this;
 
-```
+```bash
 [07/Jul/2021 16:04:31] "GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIIHOTNg61vyxk%3D HTTP/1.1" 302 0
 [07/Jul/2021 16:04:31] "GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIIHOTNg61vyxk%3D HTTP/1.1" 302 0
 [07/Jul/2021 16:04:32] "GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIIHOTNg61vyxk%3D HTTP/1.1" 302 0
