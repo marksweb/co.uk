@@ -14,7 +14,7 @@
   "private": false,
   "dependencies": {
     "babel-plugin-styled-components": "1.13.2",
-    "gatsby": "3.10.1",
+    "gatsby": "3.10.2",
     "gatsby-image": "3.10.0",
     "gatsby-link": "3.10.0",
     "gatsby-plugin-canonical-urls": "^3.8.0",
