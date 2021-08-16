@@ -7749,6 +7749,11 @@ is-absolute-url@^3.0.0, is-absolute-url@^3.0.3:
   resolved "https://registry.npmjs.org/is-absolute-url/-/is-absolute-url-3.0.3.tgz"
   integrity sha512-opmNIX7uFnS96NtPmhWQgQx6/NYFgsUXYMllcfzwWKUMwfo8kku1TvE6hkNcH+Q1ts5cMVrsY7j0bxXQDciu9Q==
 
+is-absolute-url@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/is-absolute-url/-/is-absolute-url-4.0.1.tgz#16e4d487d4fded05cfe0685e53ec86804a5e94dc"
+  integrity sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A==
+
 is-accessor-descriptor@^0.1.6:
   version "0.1.6"
   resolved "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz"
@@ -11596,15 +11601,15 @@ regjsparser@^0.6.4:
   dependencies:
     jsesc "~0.5.0"
 
-remark-external-links@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/remark-external-links/-/remark-external-links-9.0.0.tgz#af0fc62890a270e724d9c6d5a671def2b2c9fbec"
-  integrity sha512-1s81E99otVCKB2zPTsYkCV6kYUAgTiNTXeEylceYpfzF9iFuk6VhrafFT2PuwPjvvRVwmqL1Al0bphJt/ggxkA==
+remark-external-links@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/remark-external-links/-/remark-external-links-9.0.1.tgz#6e28354fd7d2c75c2652e32782441bb312cc995a"
+  integrity sha512-EYw+p8Zqy5oT5+W8iSKzInfRLY+zeKWHCf0ut+Q5SwnaSIDGXd2zzvp4SWqyAuVbinNmZ0zjMrDKaExWZnTYqQ==
   dependencies:
     "@types/hast" "^2.3.2"
     "@types/mdast" "^3.0.0"
     extend "^3.0.0"
-    is-absolute-url "^3.0.0"
+    is-absolute-url "^4.0.0"
     mdast-util-definitions "^5.0.0"
     space-separated-tokens "^2.0.0"
     unified "^10.0.0"
