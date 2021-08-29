@@ -7595,10 +7595,10 @@ htmlparser2@3.8.x:
     entities "1.0"
     readable-stream "1.1"
 
-htmlparser2@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-7.1.0.tgz#89675c268da12ab373e69b887f8be4f18e1ae158"
-  integrity sha512-C5W4WAg8imoK0gklCyLSaRR4aL8oyBmaMsYDXtQsIEIpTTJq9bv4ewHQpxaTaGK2kqwyZnsu34tqGlRG23LW/Q==
+htmlparser2@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-7.1.1.tgz#ef251d16e5b40818ba162aa24bc051c297eb3f76"
+  integrity sha512-hZb0lfG0hbhR/hB879zbBr8Opv0Be9Zp+JYHgqTw5epF++aotu/zmMTPLy/60iJyR1MaD/3pYRp7xYteXsZMEA==
   dependencies:
     domelementtype "^2.0.1"
     domhandler "^4.0.0"
