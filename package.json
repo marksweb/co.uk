@@ -59,7 +59,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.25.1",
     "jshint": "2.13.1",
-    "prettier": "2.3.2"
+    "prettier": "2.4.0"
   },
   "repository": {
     "type": "git",
