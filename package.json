@@ -54,7 +54,7 @@
     "typography-theme-funston": "0.16.19"
   },
   "devDependencies": {
-    "eslint": "8.0.0",
+    "eslint": "8.0.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.26.1",
