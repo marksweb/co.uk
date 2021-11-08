@@ -78,15 +78,15 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map((edge) => {
-                const postPath = makePostUrl(edge.node.fields.slug)
+                const postPath = makePostUrl(edge.node.fields.slug);
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: `${site.siteMetadata.siteUrl}${postPath}`,
                   guid: `${site.siteMetadata.siteUrl}${postPath}`,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -181,4 +181,4 @@ module.exports = {
       },
     },
   ],
-}
+};
