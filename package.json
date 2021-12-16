@@ -47,7 +47,7 @@
     "react-typography": "0.16.20",
     "remark-external-links": "9.0.1",
     "replace-in-file": "6.3.2",
-    "slugify": "1.6.3",
+    "slugify": "1.6.4",
     "styled-components": "5.3.3",
     "toml": "3.0.0",
     "typography": "0.16.21",
