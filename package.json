@@ -51,7 +51,8 @@
     "styled-components": "5.3.3",
     "toml": "3.0.0",
     "typography": "0.16.21",
-    "typography-theme-funston": "0.16.19"
+    "typography-theme-funston": "0.16.19",
+    "url-join": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "8.4.1",
