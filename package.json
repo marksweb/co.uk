@@ -15,7 +15,7 @@
   "dependencies": {
     "@sentry/gatsby": "^6.11.0",
     "babel-plugin-styled-components": "2.0.2",
-    "gatsby": "4.5.3",
+    "gatsby": "4.5.4",
     "gatsby-image": "3.11.0",
     "gatsby-link": "4.5.0",
     "gatsby-plugin-canonical-urls": "^4.0.0",
