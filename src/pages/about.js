@@ -30,7 +30,7 @@ const AboutPage = ({ data }) => {
           Hi! I'm a web developer. I work mostly with Python & Django, on AWS. I 
           also have a keen interest in OSS and helping other developers through StackOverflow.
           I'm the tech lead of the <ExternalLink to="https://www.django-cms.org/en/about-us/" title="django CMS association">django CMS association</ExternalLink>.
-          I also maintainer of &nbsp;
+          I also maintain &nbsp;
           <ExternalLink to="https://github.com/marksweb/django-bleach" title="django-bleach">
             django-bleach
           </ExternalLink>
