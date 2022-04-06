@@ -13,7 +13,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@sentry/gatsby": "^6.11.0",
+    "@sentry/gatsby": "^6.19.4",
     "@sentry/tracing": "^6.19.4",
     "babel-plugin-styled-components": "2.0.6",
     "gatsby": "4.11.2",
