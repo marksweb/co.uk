@@ -7954,10 +7954,10 @@ htmlparser2@3.8.x:
     entities "1.0"
     readable-stream "1.1"
 
-htmlparser2@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-8.0.0.tgz#4f7001c35b4273ee40b78d1d332c204319e5f13e"
-  integrity sha512-4wbT2/t9kITgTLhFoPPzIh4xW/fDXE4NKQDcBhWC0fPCraSA5K26W8D09K5NAqNqsBp/f7wDN2LR2rA4GhlGhA==
+htmlparser2@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-8.0.1.tgz#abaa985474fcefe269bc761a779b544d7196d010"
+  integrity sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==
   dependencies:
     domelementtype "^2.3.0"
     domhandler "^5.0.2"
