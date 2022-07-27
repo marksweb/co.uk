@@ -9,7 +9,7 @@ const config = {
   siteRss: '/rss.xml', // Path to the RSS file.
   siteRssTitle: 'marksweb.co.uk or markw.co.uk', // Title of the RSS feed
   siteFBAppID: '271307594311758', // FB Application ID for using app insights
-  googleAnalyticsID: 'UA-2218350-5', // GA tracking ID.
+  googleAnalyticsID: 'G-9W9N6CTXN9', // GA tracking ID.
   disqusShortname: '',
   dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
   dateFormat: 'DD/MM/YYYY', // Date format for display.
