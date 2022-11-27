@@ -1,5 +1,3 @@
-import urljoin from 'url-join';
-
 const { makePostUrl } = require('./src/utils/routes');
 const config = require('./src/data/SiteConfig');
 
@@ -9,7 +7,7 @@ module.exports = {
     title: config.siteTitle,
     description: config.description,
     author: config.author,
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    siteUrl: config.siteUrl,
     social: {
       github: `marksweb`,
       stackoverflow: `1199464`,
