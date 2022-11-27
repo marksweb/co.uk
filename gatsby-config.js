@@ -1,4 +1,5 @@
-const urljoin = require('url-join');
+import urljoin from 'url-join';
+
 const { makePostUrl } = require('./src/utils/routes');
 const config = require('./src/data/SiteConfig');
 
