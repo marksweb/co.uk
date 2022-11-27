@@ -53,7 +53,7 @@
     "toml": "3.0.0",
     "typography": "0.16.21",
     "typography-theme-funston": "0.16.19",
-    "url-join": "^4.0.1"
+    "url-join": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "8.24.0",
