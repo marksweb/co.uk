@@ -1,5 +1,9 @@
 name: Audit pull request
-on: pull_request
+
+on: [
+  push,
+  pull_request
+]
 
 jobs:
   audit:
@@ -8,6 +12,7 @@ jobs:
     - name: Audit Netlify deploy preview
       uses: jakejarvis/lighthouse-action@master
       with:
+        netlify_site: 'affectionate-agnesi-a744d0.netlify.app'
         url: 'https://markw.co.uk/'
     - uses: actions/upload-artifact@master
       with:
