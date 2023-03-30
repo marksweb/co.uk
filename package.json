@@ -55,11 +55,13 @@
     "url-join": "^5.0.0"
   },
   "devDependencies": {
+    "@netlify/plugin-lighthouse": "^4.0.7",
     "eslint": "8.33.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.11",
     "jshint": "2.13.6",
+    "netlify-plugin-checklinks": "^4.1.1",
     "prettier": "2.8.4"
   },
   "repository": {
