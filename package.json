@@ -61,7 +61,6 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.11",
     "jshint": "2.13.6",
-    "netlify-plugin-checklinks": "^4.1.1",
     "prettier": "2.8.4"
   },
   "repository": {
