@@ -3192,8 +3192,8 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-lighthouse@npm:^4.0.7":
-  version: 4.1.0
-  resolution: "@netlify/plugin-lighthouse@npm:4.1.0"
+  version: 4.1.1
+  resolution: "@netlify/plugin-lighthouse@npm:4.1.1"
   dependencies:
     chalk: ^4.1.0
     chrome-launcher: ^0.15.0
@@ -3203,7 +3203,7 @@ __metadata:
     html-minifier: ^4.0.0
     lighthouse: ^9.6.3
     puppeteer: ^18.0.0
-  checksum: 54994497fa1fe100b75551c1ff815ca9d183a2bb192e0f21144abe6cd90d17eab2905983d3361ba757171f41aa25e57ec08c64e8e0c07c1cd661eedae11652b0
+  checksum: 05d34c0e40fdfda404e644cf7a5cda01a30ab5495018ea0e9e974b3107d87d73c0d60ae5608ffe6a14f3b260cc3a92712d552eafbbe7600aed378b84f4857b92
   languageName: node
   linkType: hard
 
