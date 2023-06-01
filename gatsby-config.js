@@ -10,6 +10,7 @@ module.exports = {
     siteUrl: config.siteUrl,
     social: {
       github: `marksweb`,
+      mastodon: "@markwalker",
       stackoverflow: `1199464`,
       twitter: `markwalker_`,
     },
