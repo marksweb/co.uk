@@ -16,7 +16,9 @@ So often I see environment specific settings files - a file for dev/staging/prod
 
 In the years after that, everything moved to containerised workflows, serverless and infrastructure as code. This enabled a rethink of how projects were built and allowed developers to run projects just like they are ran remotely. A single settings file came with this change, and managing environment variables in CloudFormation or Terraform is straightforward, as is integrating the secret stores of AWS and Google Cloud.
 
-Then I started a new job earlier this year and I'm working with this settings structure again. This seems to always end up with a star import along the lines of ``from project.settings.base import *`` because all environments have common settings and people don't want to maintain a list of imports. But we all know that we shouldn't use star imports. It goes against [The Zen of Python](http://legacy.python.org/dev/peps/pep-0020/)
+Then I started a new job earlier this year and I'm working with this settings structure again. But for now at least, it works well because our deployment pipeline uses genkins to build images and then helm to deploy which includes writing an extra settings file into the container from encrypted files. One day I might have time to look at writing those key/values into the environment instead of into a python file for another import.
+
+Separate settings seem to always end up with a star import along the lines of ``from project.settings.base import *`` because all environments have common settings and people don't want to maintain a list of imports. But we all know that we shouldn't use star imports. It goes against [The Zen of Python](http://legacy.python.org/dev/peps/pep-0020/)
 
 > Explicit is better than implicit.
 
@@ -28,7 +30,9 @@ I know we can't always avoid these things, which is why we sometimes need ``#noq
 
 Managing environment variables while you're developing is so simple. If you're using ``docker compose``, then it'll already [read a ``.env`` file automatically](https://docs.docker.com/compose/environment-variables/set-environment-variables/#compose-file) and load the content into the environment. Then there are the python packages like [``python-dotenv``](https://www.pypi.org/p/python-dotenv), [``django-environs``](https://www.pypi.org/p/django-environs) and [``environs``](https://www.pypi.org/p/environs).
 
-My preference with these is ``python-dotenv`` because it's very simple, you just get it to load your given file in ``manage.py`` & chose a way to cast settings to ``int`` and ``bool`` where necessary. The other two packages have ways of casting built in and as you may expect from a django specific package, a few more helpers on top of that. Just be aware that exceptions get thrown if an environment variable can't be found.
+One thing to really bare in mind with these packages is where, when and how you load the environment data. The functions to load the files into the environment often recurse up through directories to look for a file if one isn't found. So you can often find bugs that are incredibly difficult to explain because a file that isn't yours gets loaded. You could consider an obscure file name or a way to run the load command conditionally so that it only happens when running locally. And make sure the file of environment variables is added to your ``.gitignore`` and, if you use docker, your ``.dockerignore``.
+
+My preference with these packages is ``python-dotenv`` because it's very simple, you just get it to load your given file in ``manage.py`` & chose a way to cast settings to ``int`` and ``bool`` where necessary. The other two packages have ways of casting built in and as you may expect from a django specific package, a few more helpers on top of that. Just be aware that exceptions get thrown if an environment variable can't be found.
 
 Something especially true for anyone using docker throughout their environments is the benefit you get from having a development machine that matches staging/production - no more "But it works on my machine". But the more the way to develop locally differs from those remote servers, the more risk there is of mistakes or unreproducible scenarios.
 
