@@ -6835,7 +6835,7 @@ __metadata:
     remark-external-links: 9.0.1
     replace-in-file: 7.0.1
     slugify: 1.6.6
-    styled-components: 6.0.1
+    styled-components: 6.0.3
     toml: 3.0.0
     typography: 0.16.21
     typography-theme-funston: 0.16.19
@@ -18287,9 +18287,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.0.1":
-  version: 6.0.1
-  resolution: "styled-components@npm:6.0.1"
+"styled-components@npm:6.0.3":
+  version: 6.0.3
+  resolution: "styled-components@npm:6.0.3"
   dependencies:
     "@babel/cli": ^7.21.0
     "@babel/core": ^7.21.0
@@ -18317,7 +18317,7 @@ __metadata:
   peerDependenciesMeta:
     babel-plugin-styled-components:
       optional: true
-  checksum: bd8a6163b07ee5f33de582370c33e0fb731e92771491b7ec28cc7c86159ce5b370a7a9e73e09e9381f0ead57c98f3939a7b14f0b1d3d91992c75940489399496
+  checksum: e02e6a38a7d484ed8ce1fa1f36b7934c1c1f57195d9c173853adc8cb89a209c23c79cf9f979ffff22829de5e817fb95aab04038c1270110956dfef168c480b13
   languageName: node
   linkType: hard
 
