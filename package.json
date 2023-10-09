@@ -21,7 +21,7 @@
     "gatsby-plugin-canonical-urls": "^5.0.0",
     "gatsby-plugin-csp": "1.1.4",
     "gatsby-plugin-feed": "5.12.0",
-    "gatsby-plugin-google-gtag": "^5.0.0",
+    "gatsby-plugin-google-gtag": "^5.12.1",
     "gatsby-plugin-manifest": "5.12.0",
     "gatsby-plugin-netlify": "5.1.1",
     "gatsby-plugin-offline": "6.12.0",
