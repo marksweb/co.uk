@@ -24,12 +24,15 @@ const SocialLinks = () => {
 
   return (
     <ListInline>
-      <ExternalLink
-        to={`https://fosstodon.org/${mastodon}`}
+      <a
+        href={`https://fosstodon.org/${mastodon}`}
         title="Mastodon profile"
+        aria-label="Mastodon profile"
+        target="_blank"
+        rel="me"
       >
         <FaMastodon title="Mastodon profile" />
-      </ExternalLink>
+      </a>
       <ExternalLink
         to={`https://www.twitter.com/${twitter}`}
         title="Twitter profile"
