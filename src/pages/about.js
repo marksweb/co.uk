@@ -29,10 +29,10 @@ const AboutPage = ({ data }) => {
         <BioStyles>
           Hi! I'm a web developer. I work mostly with Python & Django, on AWS.
           I'm the tech lead of the <ExternalLink to="https://www.django-cms.org/en/about-us/" title="django CMS association">django CMS association</ExternalLink>.
-          I also maintain a number of packages. You can find me at
+          I also maintain a number of packages. You can find me on &nbsp;
           <ExternalLink to="https://github.com/marksweb" title="github profile">
-            github.com/marksweb
-          </ExternalLink>
+            github
+          </ExternalLink>.
           &nbsp;
           If you've got a python/django package you'd like help maintaining, get in touch.
         </BioStyles>
