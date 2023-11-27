@@ -12,8 +12,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@sentry/gatsby": "^7.80.0",
-    "@sentry/tracing": "^7.80.0",
+    "@sentry/gatsby": "^7.82.0",
+    "@sentry/tracing": "^7.82.0",
     "babel-plugin-styled-components": "2.1.4",
     "gatsby": "5.12.11",
     "gatsby-image": "3.11.0",
