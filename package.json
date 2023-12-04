@@ -12,8 +12,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@sentry/gatsby": "^7.80.0",
-    "@sentry/tracing": "^7.80.0",
+    "@sentry/gatsby": "^7.85.0",
+    "@sentry/tracing": "^7.85.0",
     "babel-plugin-styled-components": "2.1.4",
     "gatsby": "5.12.11",
     "gatsby-image": "3.11.0",
@@ -56,8 +56,8 @@
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "^5.0.0",
-    "eslint": "8.54.0",
-    "eslint-config-prettier": "9.0.0",
+    "eslint": "8.55.0",
+    "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-react": "7.33.2",
     "jshint": "2.13.6",
