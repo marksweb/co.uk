@@ -15,7 +15,7 @@
     "@sentry/gatsby": "^7.94.1",
     "@sentry/tracing": "^7.94.1",
     "babel-plugin-styled-components": "2.1.4",
-    "gatsby": "5.13.2",
+    "gatsby": "5.13.3",
     "gatsby-image": "3.11.0",
     "gatsby-link": "5.13.1",
     "gatsby-plugin-canonical-urls": "^5.0.0",
