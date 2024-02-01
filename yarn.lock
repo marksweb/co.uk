@@ -2292,9 +2292,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/plugin-lighthouse@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@netlify/plugin-lighthouse@npm:5.0.0"
+"@netlify/plugin-lighthouse@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@netlify/plugin-lighthouse@npm:6.0.0"
   dependencies:
     chalk: "npm:^4.1.0"
     chrome-launcher: "npm:^0.15.0"
@@ -2304,7 +2304,7 @@ __metadata:
     html-minifier: "npm:^4.0.0"
     lighthouse: "npm:^9.6.3"
     puppeteer: "npm:^18.0.0"
-  checksum: 93b8731f89b356b320d0512c32ad8591696204d397c56a0ad83501f9cc31bbc2ed025bab8a7dc665f6c754ec533b824aca800b5ca5d4fc59e1bc7a6092838e3d
+  checksum: 8023c5379d7419677906f68ca0bc8a302c621147618702d61abba35cbad7347840fab03b78498a2f0180b13edbe4974356369c2eb0375906b8a562299756ffe5
   languageName: node
   linkType: hard
 
@@ -5547,7 +5547,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "co.uk@workspace:."
   dependencies:
-    "@netlify/plugin-lighthouse": "npm:^5.0.0"
+    "@netlify/plugin-lighthouse": "npm:^6.0.0"
     "@sentry/gatsby": "npm:^7.94.1"
     "@sentry/tracing": "npm:^7.94.1"
     babel-plugin-styled-components: "npm:2.1.4"
