@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
+import replaceInFile from "replace-in-file";
 const fs = require('fs')
 const path = require('path')
 const htmlparser = require('htmlparser2')
-const replaceInFile = require('replace-in-file')
+const { replaceInFileSync } = replaceInFile;
 
 const TARGET_FOLDER = path.join(__dirname, 'public')
 
@@ -65,7 +66,7 @@ function updateNetlifyHeaderFile(cspText, outputFile) {
 
   try {
     console.log(`Modifying Netlify's header file`)
-    const changes = replaceInFile.sync(replacementOptions)
+    const changes = replaceInFileSync(replacementOptions)
     if (changes && changes.length && changes.length > 0) {
       console.log(`Modified Netlify's headers file successfully`)
     } else {
