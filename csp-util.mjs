@@ -4,7 +4,7 @@ import replaceInFile from "replace-in-file";
 const fs = require('fs')
 const path = require('path')
 const htmlparser = require('htmlparser2')
-const { replaceInFileSync } = replaceInFile;
+const replaceInFileSync = replaceInFile;
 
 const TARGET_FOLDER = path.join(__dirname, 'public')
 
