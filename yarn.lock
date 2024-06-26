@@ -3397,7 +3397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/gatsby@npm:^8.5.0":
+"@sentry/gatsby@npm:^8.12.0":
   version: 8.12.0
   resolution: "@sentry/gatsby@npm:8.12.0"
   dependencies:
@@ -6048,7 +6048,7 @@ __metadata:
   resolution: "co.uk@workspace:."
   dependencies:
     "@netlify/plugin-lighthouse": "npm:^6.0.0"
-    "@sentry/gatsby": "npm:^8.5.0"
+    "@sentry/gatsby": "npm:^8.12.0"
     "@sentry/tracing": "npm:^7.114.0"
     babel-plugin-styled-components: "npm:2.1.4"
     eslint: "npm:9.5.0"
