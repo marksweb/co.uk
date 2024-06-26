@@ -6059,7 +6059,7 @@ __metadata:
     gatsby-image: "npm:3.11.0"
     gatsby-link: "npm:5.13.1"
     gatsby-plugin-canonical-urls: "npm:^5.0.0"
-    gatsby-plugin-csp: "npm:1.1.4"
+    gatsby-plugin-csp: "npm:^1.1.4"
     gatsby-plugin-feed: "npm:5.13.1"
     gatsby-plugin-google-gtag: "npm:^5.12.3"
     gatsby-plugin-manifest: "npm:5.13.1"
@@ -9317,7 +9317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-csp@npm:1.1.4":
+"gatsby-plugin-csp@npm:^1.1.4":
   version: 1.1.4
   resolution: "gatsby-plugin-csp@npm:1.1.4"
   dependencies:
