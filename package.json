@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@sentry/gatsby": "^8.12.0",
+    "@sentry/gatsby": "^8.19.0",
     "@sentry/tracing": "^7.114.0",
     "babel-plugin-styled-components": "2.1.4",
     "gatsby": "5.13.7",
@@ -48,7 +48,7 @@
     "remark-external-links": "9.0.1",
     "replace-in-file": "8.1.0",
     "slugify": "1.6.6",
-    "styled-components": "6.1.11",
+    "styled-components": "6.1.12",
     "toml": "3.0.0",
     "typography": "0.16.24",
     "typography-theme-funston": "0.16.19",
@@ -58,8 +58,8 @@
     "@netlify/plugin-lighthouse": "^6.0.0",
     "eslint": "9.7.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-prettier": "5.1.3",
-    "eslint-plugin-react": "7.34.4",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-react": "7.35.0",
     "jshint": "2.13.6",
     "prettier": "3.3.3"
   },
