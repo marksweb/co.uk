@@ -5830,7 +5830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cheerio@npm:^1.0.0-rc.10":
+"cheerio@npm:1.0.0-rc.12":
   version: 1.0.0-rc.12
   resolution: "cheerio@npm:1.0.0-rc.12"
   dependencies:
@@ -6036,7 +6036,7 @@ __metadata:
     gatsby-plugin-google-gtag: "npm:^5.12.3"
     gatsby-plugin-manifest: "npm:5.13.1"
     gatsby-plugin-netlify: "npm:5.1.1"
-    gatsby-plugin-offline: "npm:6.13.2"
+    gatsby-plugin-offline: "npm:6.13.3"
     gatsby-plugin-react-helmet: "npm:6.13.1"
     gatsby-plugin-robots-txt: "npm:1.8.0"
     gatsby-plugin-sharp: "npm:5.13.1"
@@ -6044,7 +6044,7 @@ __metadata:
     gatsby-plugin-styled-components: "npm:6.13.1"
     gatsby-plugin-typography: "npm:5.13.1"
     gatsby-remark-external-links: "npm:^0.0.4"
-    gatsby-remark-images: "npm:7.13.1"
+    gatsby-remark-images: "npm:7.13.2"
     gatsby-remark-smartypants: "npm:6.13.1"
     gatsby-remark-vscode: "npm:3.3.1"
     gatsby-source-filesystem: "npm:5.13.1"
@@ -9332,12 +9332,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-offline@npm:6.13.2":
-  version: 6.13.2
-  resolution: "gatsby-plugin-offline@npm:6.13.2"
+"gatsby-plugin-offline@npm:6.13.3":
+  version: 6.13.3
+  resolution: "gatsby-plugin-offline@npm:6.13.3"
   dependencies:
     "@babel/runtime": "npm:^7.20.13"
-    cheerio: "npm:^1.0.0-rc.10"
+    cheerio: "npm:1.0.0-rc.12"
     gatsby-core-utils: "npm:^4.13.1"
     glob: "npm:^7.2.3"
     idb-keyval: "npm:^3.2.0"
@@ -9347,7 +9347,7 @@ __metadata:
     gatsby: ^5.0.0-next
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
-  checksum: 10c0/f693dbc89e2a987c66c662794c8387a3c89ab72c40ede2a7b8452be12450bedb4ed3f0de1c8f1c544782ce4c08d81ddb2ef1de896dd9099309b7eea09c800461
+  checksum: 10c0/bf3d60570d325218dd03927b62c4518b446d04ed4b22de91692081c918ffa9821f2c2bffaeafda260f02ff2255bc6604232e8c7376f2d9790fb4a7f70865ed6b
   languageName: node
   linkType: hard
 
@@ -9528,13 +9528,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:7.13.1":
-  version: 7.13.1
-  resolution: "gatsby-remark-images@npm:7.13.1"
+"gatsby-remark-images@npm:7.13.2":
+  version: 7.13.2
+  resolution: "gatsby-remark-images@npm:7.13.2"
   dependencies:
     "@babel/runtime": "npm:^7.20.13"
     chalk: "npm:^4.1.2"
-    cheerio: "npm:^1.0.0-rc.10"
+    cheerio: "npm:1.0.0-rc.12"
     gatsby-core-utils: "npm:^4.13.1"
     is-relative-url: "npm:^3.0.0"
     lodash: "npm:^4.17.21"
@@ -9545,7 +9545,7 @@ __metadata:
   peerDependencies:
     gatsby: ^5.0.0-next
     gatsby-plugin-sharp: ^5.0.0-next
-  checksum: 10c0/48f0b581c5f4459058ab6ee2bdf2787179e7332996dba3f8c3319483a2078076b0480b95f5418ea49ad43dc2fd57fa697c47763b6d087e466b4f19a916b8c3ab
+  checksum: 10c0/79476e78c3f93b266b165b692039e3a7eb5e4ce0c6d24f7dc4111697516854cc94f32278c8a8d55c6ae30d7afd1234668d276a90eddc3e11121e95ed19f8ee35
   languageName: node
   linkType: hard
 
