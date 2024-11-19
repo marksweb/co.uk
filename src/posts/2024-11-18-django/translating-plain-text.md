@@ -1,9 +1,9 @@
 ---
-title: 'Django blocktranslate'
+title: 'Translating plain text'
 category: 'django'
-description: 'Using blocktranslate tags can create extra space'
+description: 'Dealing with extra whitespace when translating plain text in django'
 date: '2024-11-18'
-slug: 'blocktranslate'
+slug: 'translating-plain-text'
 og_image: 
 tags:
     - django
@@ -13,7 +13,7 @@ tags:
 
 I have recently been adding support for translations to [djangoproject.com](https://www.djangoproject.com).
 
-One area of translations that was interesting was with emails. There are tests to verify the format of emails, ensuring there isn't extra whitespace. From the terminal it's fairly easy to test how an email template will render;
+One area of translations that was interesting was plain text emails. There are tests to verify the format of emails, ensuring there isn't extra whitespace. From the terminal it's fairly easy to test how an email template will render;
 
 ```python
 from django.template import loader
