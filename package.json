@@ -59,7 +59,7 @@
     "eslint": "9.22.0",
     "eslint-config-prettier": "10.1.2",
     "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-react": "7.37.3",
+    "eslint-plugin-react": "7.37.5",
     "jshint": "2.13.6",
     "prettier": "3.5.3"
   },
