@@ -5669,7 +5669,7 @@ __metadata:
     remark-external-links: "npm:10.0.0"
     replace-in-file: "npm:8.3.0"
     slugify: "npm:1.6.6"
-    styled-components: "npm:6.1.16"
+    styled-components: "npm:6.1.19"
     toml: "npm:3.0.0"
     typography: "npm:0.16.24"
     typography-theme-funston: "npm:0.16.19"
@@ -16380,9 +16380,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.1.16":
-  version: 6.1.16
-  resolution: "styled-components@npm:6.1.16"
+"styled-components@npm:6.1.19":
+  version: 6.1.19
+  resolution: "styled-components@npm:6.1.19"
   dependencies:
     "@emotion/is-prop-valid": "npm:1.2.2"
     "@emotion/unitless": "npm:0.8.1"
@@ -16396,7 +16396,7 @@ __metadata:
   peerDependencies:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
-  checksum: 10c0/190d6d5dc9099489fac37e23be5bda7fef399ca9f9230f1de81100b98ec1c75070ef5990241c007126d97f40069d3c864f4239e185161a70ff111dd3e3bf5370
+  checksum: 10c0/8d20427a5debe54bfa3b55f79af2a3577551ed7f1d1cd34df986b73fd01ac519f9081b7737cc1f76e12fbc483fa50551e55be0bc984296e623cc6a2364697cd8
   languageName: node
   linkType: hard
 
