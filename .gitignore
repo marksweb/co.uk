@@ -68,7 +68,6 @@ package-lock.json
 
 # Yarn
 .yarn/cache
-.yarn/releases
 .yarn/install-state.gz
 yarn-error.log
 .pnp/
