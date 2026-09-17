@@ -4,7 +4,7 @@ import globals from 'globals'
 
 export default [
   {
-    ignores: ['public/**', '.cache/**', 'node_modules/**'],
+    ignores: ['public/**', '.cache/**', 'node_modules/**', '.yarn/**'],
   },
   reactPlugin.configs.flat.recommended,
   prettier,
