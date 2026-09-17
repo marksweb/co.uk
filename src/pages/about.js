@@ -27,14 +27,20 @@ const AboutPage = ({ data }) => {
         <h1>Mark Walker</h1>
         <Avatar sharpImage={data.avatarImage.childImageSharp} />
         <BioStyles>
-          Hi! I'm a web developer. I work mostly with Python & Django, on AWS.
-          I'm the tech lead of the <ExternalLink to="https://www.django-cms.org/en/about-us/" title="django CMS association">django CMS association</ExternalLink>.
-          I also maintain a number of packages. You can find me on &nbsp;
+          Hi! I&apos;m a web developer. I work mostly with Python &amp; Django,
+          on AWS. I&apos;m the tech lead of the{' '}
+          <ExternalLink
+            to="https://www.django-cms.org/en/about-us/"
+            title="django CMS association"
+          >
+            django CMS association
+          </ExternalLink>
+          . I also maintain a number of packages. You can find me on &nbsp;
           <ExternalLink to="https://github.com/marksweb" title="github profile">
             github
-          </ExternalLink>.
-          &nbsp;
-          If you've got a python/django package you'd like help maintaining, get in touch.
+          </ExternalLink>
+          . &nbsp; If you&apos;ve got a python/django package you&apos;d like
+          help maintaining, get in touch.
         </BioStyles>
         <SocialLinks />
       </HeroSectionStyles>

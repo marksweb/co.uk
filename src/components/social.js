@@ -1,4 +1,9 @@
-import { FaGithub, FaMastodon, FaStackOverflow, FaTwitter } from 'react-icons/fa'
+import {
+  FaGithub,
+  FaMastodon,
+  FaStackOverflow,
+  FaTwitter,
+} from 'react-icons/fa'
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import ListInline from './list-inline'
@@ -29,7 +34,7 @@ const SocialLinks = () => {
         title="Mastodon profile"
         aria-label="Mastodon profile"
         target="_blank"
-        rel="me"
+        rel="me noopener noreferrer"
       >
         <FaMastodon title="Mastodon profile" />
       </a>

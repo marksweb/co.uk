@@ -1,5 +1,5 @@
-const { makePostUrl } = require('./src/utils/routes');
-const config = require('./src/data/SiteConfig');
+const { makePostUrl } = require('./src/utils/routes')
+const config = require('./src/data/SiteConfig')
 
 module.exports = {
   pathPrefix: config.pathPrefix === '' ? '/' : config.pathPrefix,
@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: config.siteUrl,
     social: {
       github: `marksweb`,
-      mastodon: "@markwalker",
+      mastodon: '@markwalker',
       stackoverflow: `1199464`,
       twitter: `markwalker_`,
     },
@@ -57,9 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          config.googleAnalyticsID
-        ],
+        trackingIds: [config.googleAnalyticsID],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
@@ -95,20 +93,20 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map((edge) => {
-                const postPath = makePostUrl(edge.node.fields.slug);
+                const postPath = makePostUrl(edge.node.fields.slug)
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: `${site.siteMetadata.siteUrl}${postPath}`,
                   guid: `${site.siteMetadata.siteUrl}${postPath}`,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                });
-              });
+                })
+              })
             },
             query: `
               {
                 allMarkdownRemark(
-                  sort: { fields: [frontmatter___date], order: DESC },
+                  sort: { frontmatter: { date: DESC } },
                 ) {
                   edges {
                     node {
@@ -153,7 +151,8 @@ module.exports = {
         mergeScriptHashes: false,
         mergeStyleHashes: false,
         directives: {
-          'script-src': "'self' 'unsafe-inline' data: www.google-analytics.com www.googletagmanager.com d33wubrfki0l68.cloudfront.net",
+          'script-src':
+            "'self' 'unsafe-inline' data: www.google-analytics.com www.googletagmanager.com d33wubrfki0l68.cloudfront.net",
           'style-src': `'self' 'unsafe-inline'`,
           'img-src': `'self' data: www.google-analytics.com`,
           'default-src': `'self'`,
@@ -192,12 +191,12 @@ module.exports = {
       },
     },
     {
-      resolve: "@sentry/gatsby",
+      resolve: '@sentry/gatsby',
       options: {
-        dsn: "https://79a44fccebae470f8c022a0a6575562b@o961321.ingest.sentry.io/5909725",
+        dsn: 'https://79a44fccebae470f8c022a0a6575562b@o961321.ingest.sentry.io/5909725',
         sampleRate: 0.7,
-        tracesSampleRate: 0.7
+        tracesSampleRate: 0.7,
       },
     },
   ],
-};
+}

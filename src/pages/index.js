@@ -38,10 +38,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      limit: 10
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(limit: 10, sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           ...PostPreview
