@@ -5357,6 +5357,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "chalk@npm:6.0.0"
+  checksum: 10c0/47fd9028aa66fa532295525fe3ac5aec5e467e0d86847d4b5f6e01f9c9bb70b6fd1edca79cddc78a0f31a357baa65cc752d30c6557d025904207d113c82d8962
+  languageName: node
+  linkType: hard
+
 "change-case-all@npm:1.0.14":
   version: 1.0.14
   resolution: "change-case-all@npm:1.0.14"
@@ -5708,7 +5715,7 @@ __metadata:
     react-icons: "npm:5.7.0"
     react-typography: "npm:0.16.23"
     remark-external-links: "npm:10.0.0"
-    replace-in-file: "npm:8.4.0"
+    replace-in-file: "npm:9.0.0"
     slugify: "npm:1.6.9"
     styled-components: "npm:6.5.3"
     toml: "npm:3.0.0"
@@ -9686,7 +9693,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^13.0.0, glob@npm:^13.0.6":
+"glob@npm:^13.0.6":
   version: 13.0.6
   resolution: "glob@npm:13.0.6"
   dependencies:
@@ -15278,16 +15285,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"replace-in-file@npm:8.4.0":
-  version: 8.4.0
-  resolution: "replace-in-file@npm:8.4.0"
+"replace-in-file@npm:9.0.0":
+  version: 9.0.0
+  resolution: "replace-in-file@npm:9.0.0"
   dependencies:
-    chalk: "npm:^5.6.2"
-    glob: "npm:^13.0.0"
-    yargs: "npm:^18.0.0"
+    chalk: "npm:^6.0.0"
+    glob: "npm:^13.0.6"
+    yargs: "npm:^18.1.0"
   bin:
-    replace-in-file: bin/cli.js
-  checksum: 10c0/9450a7c3b259bc53c2cb09d04cb4d827915ea1c3e04b0e79e6bd0c5b40b3e15ec78b666e7d8a633c0727c208df02523e273cd3830abad21d567d4d277deee459
+    replace-in-file: dist/bin/cli.js
+  checksum: 10c0/046de046f502052d1c5c418c74b1dcd2cc5af3756f7a7aef75b429f6aa26a053d22169ce1c9dd3478eecd8a94adb69097a332c7c0b3f69378ba529ddc3070509
   languageName: node
   linkType: hard
 
@@ -18654,7 +18661,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^18.0.0":
+"yargs@npm:^18.1.0":
   version: 18.1.0
   resolution: "yargs@npm:18.1.0"
   dependencies:
