@@ -5711,7 +5711,7 @@ __metadata:
     replace-in-file: "npm:8.4.0"
     slugify: "npm:1.6.9"
     styled-components: "npm:6.5.3"
-    toml: "npm:3.0.0"
+    toml: "npm:5.0.0"
     typography: "npm:0.16.24"
     typography-theme-funston: "npm:0.16.19"
     url-join: "npm:^5.0.0"
@@ -17147,10 +17147,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"toml@npm:3.0.0":
-  version: 3.0.0
-  resolution: "toml@npm:3.0.0"
-  checksum: 10c0/8d7ed3e700ca602e5419fca343e1c595eb7aa177745141f0761a5b20874b58ee5c878cd045c408da9d130cb2b611c639912210ba96ce2f78e443569aa8060c18
+"toml@npm:5.0.0":
+  version: 5.0.0
+  resolution: "toml@npm:5.0.0"
+  checksum: 10c0/5a64ee61eca41d03c9caf267810a583d20058049b7c05618b213b473b9a9f6c560041ae5aad90fdeacd13df4e08965e7d0a3034e9e1b5b62fe9bc1ff5db5e5c1
   languageName: node
   linkType: hard
 
