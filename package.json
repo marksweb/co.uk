@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "^6.0.4",
-    "eslint": "9.39.5",
+    "eslint": "10.11.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.6",
     "eslint-plugin-react": "7.37.5",
