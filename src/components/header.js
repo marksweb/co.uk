@@ -31,7 +31,7 @@ const TitleStyles = styled.p`
   line-height: inherit;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle = `` }) => (
   <HeaderWrapperStyles>
     <HeaderStyles>
       <TitleStyles>
@@ -46,10 +46,6 @@ const Header = ({ siteTitle }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
 }
 
 export default Header
