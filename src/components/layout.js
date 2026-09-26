@@ -34,7 +34,7 @@ const getHeroImage = (fluidImage) => {
   }
 }
 
-const Layout = ({ children, headerImage }) => {
+const Layout = ({ children, headerImage = null }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -64,10 +64,6 @@ const Layout = ({ children, headerImage }) => {
       </ThemeProvider>
     </>
   )
-}
-
-Layout.defaultProps = {
-  headerImage: null,
 }
 
 Layout.propTypes = {
