@@ -3,7 +3,7 @@ command = "npm run build"
 publish = "public/"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "24"
   YARN_VERSION = "4.18.0"
 
 [[plugins]]
