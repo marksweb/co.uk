@@ -54,7 +54,7 @@
     "toml": "5.0.0",
     "typography": "0.16.24",
     "typography-theme-funston": "0.16.19",
-    "url-join": "^5.0.0"
+    "url-join": "^6.0.0"
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "^6.0.4",
