@@ -51,7 +51,7 @@
     "replace-in-file": "9.0.0",
     "slugify": "1.6.9",
     "styled-components": "6.6.0",
-    "toml": "5.0.0",
+    "toml": "5.0.1",
     "typography": "0.16.24",
     "typography-theme-funston": "0.16.19",
     "url-join": "^5.0.0"
