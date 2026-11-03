@@ -4743,18 +4743,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-styled-components@npm:2.3.1":
-  version: 2.3.1
-  resolution: "babel-plugin-styled-components@npm:2.3.1"
+"babel-plugin-styled-components@npm:2.4.0":
+  version: 2.4.0
+  resolution: "babel-plugin-styled-components@npm:2.4.0"
   dependencies:
     "@babel/helper-annotate-as-pure": "npm:^7.25.9"
     "@babel/helper-module-imports": "npm:^7.25.9"
-    "@babel/plugin-syntax-jsx": "npm:^7.25.9"
     picomatch: "npm:^4.0.2"
   peerDependencies:
-    "@babel/core": ^7.0.0
+    "@babel/core": ^7.0.0 || ^8.0.0
     styled-components: ">= 2"
-  checksum: 10c0/ffb0e94bacac281eedd21686bf49405238b00d9bcd7eb9d46dc9b61f4aa4bf6a0ca6cd383610188d15870fd54df6091ca68d3f29bb1510d3d623019e509cf303
+  checksum: 10c0/ad7050717c79899a350b5615d0e8c1ea79a4ed5ac192b2fdd0a493c08a06ee99737b48b9dc5bfcc63c18d058d641433fc311dcd818b4639ccae3ddafef6a9d39
   languageName: node
   linkType: hard
 
@@ -5781,7 +5780,7 @@ __metadata:
   dependencies:
     "@netlify/plugin-lighthouse": "npm:^6.0.4"
     "@sentry/gatsby": "npm:^11.0.0"
-    babel-plugin-styled-components: "npm:2.3.1"
+    babel-plugin-styled-components: "npm:2.4.0"
     eslint: "npm:10.12.0"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-prettier: "npm:5.5.6"
